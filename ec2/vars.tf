@@ -5,11 +5,11 @@ variable "ami" {
 }
 
 variable "key_path" {
-  default = "ec2/devops_key"
+  default = "/root/jenkins/devops_key"
 }
 
 variable "pem_file" {
-  default = "ec2/devops.pem"
+  default = "/root/jenkins/devops.pem"
 }
 
 variable "vpc_id" {}
